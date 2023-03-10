@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url('background.jpg') no-repeat;
-    background-size: cover; /* bg full*/
+    background-size: cover; 
     background-position: center;
 }
 
@@ -39,6 +39,7 @@ header {
     position: relative;
     font-size: 1.1em;
     top: 0;
+    left: 0;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -54,12 +55,12 @@ header {
     height: 3px;
     background: #fff;
     border-radius: 5px;
-    transform-origin: right; /*compass line*/
+    transform-origin: right; 
     transform: scaleX(0);
     transition: transform .5s; /*nav line tranform*/
 }
 
-.navigation a:hover:after{   /* click&have underline*/
+.navigation a:hover:after{  
     transform-origin: left; 
     transform: scaleX(1);
 }
@@ -79,7 +80,7 @@ header {
     transition: .5s;
 }
 
-.navigation  .btnlogin-popup:hover  { /*transit white*/
+.navigation  .btnlogin-popup:hover  { 
     background: #fff;
     color: #162938;
 
@@ -87,7 +88,7 @@ header {
 
 .wrapper {
     position: relative;
-    margin: 100px auto;
+    margin: 150px auto;
     width: 400px;   
     height: 440px;
     background: transparent;
